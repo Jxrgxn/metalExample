@@ -13,6 +13,15 @@
 /* Begin PBXFileReference section */
 		B9D0ED8B1D221B7A0072F94C /* metalExample.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = metalExample.metallib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D0ED8E1D221B7A0072F94C /* metalExample.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = metalExample.metal; sourceTree = "<group>"; };
+		B9FFFA1F1D2512C000C3B5EB /* Mesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mesh.swift; sourceTree = "<group>"; };
+		B9FFFA201D25137500C3B5EB /* Terrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Terrain.swift; sourceTree = "<group>"; };
+		B9FFFA211D2513D100C3B5EB /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		B9FFFA221D2513E400C3B5EB /* MatricUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatricUtilities.swift; sourceTree = "<group>"; };
+		B9FFFA231D25142500C3B5EB /* Appdelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appdelegate.swift; sourceTree = "<group>"; };
+		B9FFFA241D25148F00C3B5EB /* Bob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bob.swift; sourceTree = "<group>"; };
+		B9FFFA251D2514D600C3B5EB /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		B9FFFA261D25152200C3B5EB /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		B9FFFA271D25158B00C3B5EB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -36,6 +45,15 @@
 			isa = PBXGroup;
 			children = (
 				B9D0ED8E1D221B7A0072F94C /* metalExample.metal */,
+				B9FFFA241D25148F00C3B5EB /* Bob.swift */,
+				B9FFFA251D2514D600C3B5EB /* Renderer.swift */,
+				B9FFFA261D25152200C3B5EB /* MetalView.swift */,
+				B9FFFA271D25158B00C3B5EB /* ViewController.swift */,
+				B9FFFA1F1D2512C000C3B5EB /* Mesh.swift */,
+				B9FFFA221D2513E400C3B5EB /* MatricUtilities.swift */,
+				B9FFFA201D25137500C3B5EB /* Terrain.swift */,
+				B9FFFA211D2513D100C3B5EB /* Types.swift */,
+				B9FFFA231D25142500C3B5EB /* Appdelegate.swift */,
 			);
 			path = metalExample;
 			sourceTree = "<group>";
@@ -155,6 +173,7 @@
 				B9D0ED941D221B7A0072F94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

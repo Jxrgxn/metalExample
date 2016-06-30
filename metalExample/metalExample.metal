@@ -18,5 +18,30 @@ struct InVertex
     packed_float2 textCoords [[attribute(2)]];
 };
 
+struct ProjectedVertex
+{
+    float4 position [[position]];
+};
 
+struct Uniforms
+{
+    float4x4 viewProjectionMatrix;
+};
+
+struct PerInstanceUniforms
+{
+    float4x4 modelMatrix;
+    float3x3 normalMatrix;
+};
+
+vertex ProjectedVertex vertex_project(constant InVertex *vertices [[buffer(0)]],
+                                      constant Uniforms *&uniforms [[buffer(1)]],
+                                      constant PerInstanceUniforms *perInstanceUniforms
+                                      [[buffer(2)]],
+                                      ushort vid [[vertex_id]],
+                                      ushort iid [[instance_id]])
+
+{
+    float4
+}
 
